@@ -71,5 +71,3 @@ leaderboard/
 - **Sort Users** → Click headers **Name** or **Points**.
 - **Search Users** → Use the search bar to filter by name.
 - **View User Details** → Click on a user's name.
-
-## 🎯 Example Screenshots
