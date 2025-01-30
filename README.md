@@ -2,7 +2,8 @@
 
 This project is a **Full Stack Leaderboard Application** built with **Laravel (API)** and **React (Frontend)**. It allows users to be added, removed, and sorted based on scores while ensuring all backend requirements are met.
 
-📽 **Demo Video:** [Watch Full Walkthrough](https://youtu.be/IMJkGseKZWU)
+📽 **Demo Video:**
+[![Watch Full Walkthrough](https://img.youtube.com/vi/IMJkGseKZWU/0.jpg)](https://youtu.be/IMJkGseKZWU)
 
 ## 📌 Assignment Requirements & Implementation
 
