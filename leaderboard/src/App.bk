@@ -1,0 +1,30 @@
+import { useState } from "react";
+import Leaderboard from "./components/Leaderboard";
+import UserDetails from "./components/UserDetails";
+import UserForm from "./components/UserForm";
+import SearchBar from "./components/SearchBar";
+import SortButtons from "./components/SortButtons";
+
+const App = () => {
+    const [selectedUser, setSelectedUser] = useState(null);
+    const [searchTerm, setSearchTerm] = useState("");
+    const [sortKey, setSortKey] = useState("");
+
+    return (
+        <div>
+            <h1>Leaderboard App</h1>
+            <SearchBar onSearch={setSearchTerm} />
+            <SortButtons onSort={setSortKey} />
+            <UserForm onUserAdded={() => window.location.reload()} />
+            <Leaderboard
+                onSelectUser={setSelectedUser}
+                search={searchTerm}
+                sort={sortKey}
+            />
+            <UserDetails user={selectedUser} />
+        </div>
+    );
+};
+
+export default App;
+
